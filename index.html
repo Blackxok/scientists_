@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- script -->
+	<script src="./js/main.js" defer></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"
+		defer></script>
+	<!-- css -->
+	<link rel="stylesheet" href="./styles/style.css">
+	<!-- boot -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<title>Olimlar</title>
+</head>
+
+<body>
+	<!-- nav -->
+	<nav class="navbar navbar-expand-lg navbar-custom">
+		<div class="container container-fluid">
+			<a class="navbar-brand" href="#">
+				<img src="./imgs/CodeSchool_white_logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-top">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="./index.html">Bosh sahifa</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./maqolalar.html">Maqolalar</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./send.html">Maqola yuborish</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./arxiv.html">Arxiv</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+							aria-expanded="false">
+							Biz haqimizda
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="./about/members.html">Tahrir hay'ati</a></li>
+							<li><a class="dropdown-item" href="./about/contact.html">Biz bilan bog'lanish</a></li>
+							<li><a class="dropdown-item" href="./about/indexing.html">Indexlar</a></li>
+							<li><a class="dropdown-item" href="./about/plagiat.html">Plagiatga qarshi siyosat</a></li>
+							<li><a class="dropdown-item" href="./about/license.html">Litsenziya shartnomasi</a></li>
+							<li><a class="dropdown-item" href="./about/goal.html">Maqsadi va qamrovi</a></li>
+							<li><a class="dropdown-item" href="./about/copyright.html">Mualliflik huquqi</a></li>
+							<li><a class="dropdown-item" href="./about/best.html">Eng yaxshi ilmiy maqola</a></li>
+							<li><a class="dropdown-item" href="./about/policy.html">Repository siyosati</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://ilmiyanjumanlar.uz/">Konferensiyalar</a>
+					</li>
+				</ul>
+				<!-- <div class="dropdown">
+					<button class="btn btn-outline-light dropdown-toggle" type="button" id="languageDropdown"
+						data-bs-toggle="dropdown" aria-expanded="false">
+						O'zbekcha
+					</button>
+					<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+						<li><a class="dropdown-item" href="#">O'zbekcha</a></li>
+						<li><a class="dropdown-item" href="#">English</a></li>
+					</ul>
+				</div> -->
+			</div>
+		</div>
+	</nav>
+	<!-- nav -->
+	<!-- carousel home -->
+	<section id="slider" class="slider-section">
+		<div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+			<div class="carousel-inner">
+				<!-- Slide 1: Video -->
+				<div class="carousel-item active">
+					<img src="./imgs/bgimg1.jpg" class="d-block w-100" alt="Image 1">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Xalqaro konferensiya</h5>
+						<p>Samarqand viloyatida Xalqaro konferensiya boʻlib oʻtdi.</p>
+					</div>
+				</div>
+				<!-- Slide 3: Image -->
+				<div class="carousel-item">
+					<img src="./imgs/bgimg2.jpg" class="d-block w-100" alt="Image 1">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Ilmiy ish va PhD lar</h5>
+						<p>Konferensiyada 70 dan ortiq ilmiy ishlar bilan PhD lar qatnashishdi.</p>
+					</div>
+				</div> <!-- Slide 4: Image -->
+				<div class="carousel-item">
+					<img src="./imgs/bgimg3.jpg" class="d-block w-100" alt="Image 1">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Taqdirlash</h5>
+						<p>Konferensiyada 3 ta eng yaxshi ilmiy ish sohib va sohibalari mahsus vaucher bilan taqdirlandilar.</p>
+					</div>
+				</div> <!-- Slide 5: Image -->
+				<div class="carousel-item">
+					<img src="./imgs/bgimg4.jpg" class="d-block w-100" alt="Image 1">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Taqdirlash</h5>
+						<p>Konferensiyada 3 ta eng yaxshi ilmiy ish sohib va sohibalari mahsus vaucher bilan taqdirlandilar.</p>
+					</div>
+				</div>
+				<!-- Add more slides as needed -->
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+				data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+				data-bs-slide="next">
+				<span class="carousel-control-next-icon" color="red" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</section>
+	<!-- carousel home -->
+	<!-- home section -->
+	<section class="journal-section py-5">
+		<div class="container p-0">
+			<div class="row">
+				<div class="col-md-6">
+					<img src="./imgs/certificate_2023.jpg" alt="Journal Certificate" class="img-fluid rounded">
+				</div>
+				<div class="col-md-6">
+					<div class="journal-info">
+						<h2 class="mb-3 text-success rounded">"Science and Innovation" xalqaro ilmiy jurnali</h2>
+						<p><strong>№:</strong> OAV Guvoḩnoma №1838843 <strong> Data:</strong> 22.02.2024</p>
+						<p>Ushbu jurnalda O'zbekiston va chet davlatlar olimlari ilmiy maqolalari chop etiladi.</p>
+						<p>Ushbu jurnal OAK ro'yxatida mavjud xalqaro bazalarda indekslanib, elektron va bosma holatda nashr etib
+							boriladi.</p>
+						<p><strong>Jurnalning rasmiy tillari:</strong> ingliz</p>
+						<p><strong>Jurnal telegram kanali:</strong> <a href="https://t.me/science_innovations"
+								target="_blank">https://t.me/science_innovations</a></p>
+						<p>Maqola muallifiga BEPUL qabul qilinganlik haqida sertifikat, indekslanganlik haqida ma'lumotnoma va
+							mualliflik guvoḩnomasi beriladi.</p>
+						<p>Jurnal har oyda nashr qilinadi.</p>
+						<p><strong>Maqolalar yuborish uchun:</strong></p>
+						<ul class="list-unstyled">
+							<li><a href="https://t.me/science_inno2" target="_blank">themostreliablepublication@gmail.com</a></li>
+						</ul>
+						<div class="mt-4">
+							<a href="#" class="btn btn-primary me-2">Maqolalar</a>
+							<a href="#" class="btn btn-success">Axborot xati</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- home section -->
+	<!-- boxxxxxx -->
+	<section class="journal-section">
+		<div class="container">
+			<div class="row">
+				<div class="cardik">
+					<div class="card-title">
+						<i class="bi bi-award-fill"></i> SIGNIFICANT ASPECTS AND ADVANTAGES OF ASTRONOMY STUDY
+					</div>
+					<div class="card-body">
+						<p class="card-name">Javlieva G.</p>
+						<p class="card-text">The article reveals many significant aspects and advantages of studying astronomy.</p>
+					</div>
+					<div class="link-bnts">
+						<a class="btn btn-secondary"><i class="bi bi-calendar-event"></i>
+							31.02.2024</a>
+						<a class="btn btn-secondary"><i class="bi bi-check"></i> Volume 3 Issue 7</a>
+						<a href="#" class="btn btn-info"><i class="bi bi-eye"></i> View more</a>
+						<a href="#" class="btn btn-primary"><i class="bi bi-download"></i> Download</a>
+					</div>
+				</div>
+				<div class="cardik">
+					<div class="card-title">
+						<i class="bi bi-award-fill"></i> SIGNIFICANT ASPECTS AND ADVANTAGES OF ASTRONOMY STUDY
+					</div>
+					<div class="card-body">
+						<p class="card-name">Javlieva G.</p>
+						<p class="card-text">The article reveals many significant aspects and advantages of studying astronomy.</p>
+					</div>
+					<div class="link-bnts">
+						<a class="btn btn-secondary"><i class="bi bi-calendar-event"></i>
+							31.02.2024</a>
+						<a class="btn btn-secondary"><i class="bi bi-check"></i> Volume 3 Issue 7</a>
+						<a href="#" class="btn btn-info"><i class="bi bi-eye"></i> View more</a>
+						<a href="#" class="btn btn-primary"><i class="bi bi-download"></i> Download</a>
+					</div>
+				</div>
+				<div class="cardik">
+					<div class="card-title">
+						<i class="bi bi-award-fill"></i> SIGNIFICANT ASPECTS AND ADVANTAGES OF ASTRONOMY STUDY
+					</div>
+					<div class="card-body">
+						<p class="card-name">Javlieva G.</p>
+						<p class="card-text">The article reveals many significant aspects and advantages of studying astronomy.</p>
+					</div>
+					<div class="link-bnts">
+						<a class="btn btn-secondary"><i class="bi bi-calendar-event"></i>
+							31.02.2024</a>
+						<a class="btn btn-secondary"><i class="bi bi-check"></i> Volume 3 Issue 7</a>
+						<a href="#" class="btn btn-info"><i class="bi bi-eye"></i> View more</a>
+						<a href="#" class="btn btn-primary"><i class="bi bi-download"></i> Download</a>
+					</div>
+				</div>
+				<div class="cardik">
+					<div class="card-title">
+						<i class="bi bi-award-fill"></i> SIGNIFICANT ASPECTS AND ADVANTAGES OF ASTRONOMY STUDY
+					</div>
+					<div class="card-body">
+						<p class="card-name">Javlieva G.</p>
+						<p class="card-text">The article reveals many significant aspects and advantages of studying astronomy.</p>
+					</div>
+					<div class="link-bnts">
+						<a class="btn btn-secondary"><i class="bi bi-calendar-event"></i>
+							31.02.2024</a>
+						<a class="btn btn-secondary"><i class="bi bi-check"></i> Volume 3 Issue 7</a>
+						<a href="#" class="btn btn-info"><i class="bi bi-eye"></i> View more</a>
+						<a href="#" class="btn btn-primary"><i class="bi bi-download"></i> Download</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!-- boxxxxxx -->
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="links">
+						<a href="#">ZENODO</a>
+						<a href="#">OpenAire</a>
+						<a href="#">EuroPub</a>
+						<a href="#">Copernicus</a>
+						<a href="#">Cyberleninka</a>
+						<a href="#">Google Scholar</a>
+						<a href="#">eLibrary.ru</a>
+						<a href="#">UzSCI (SLIB.UZ)</a>
+						<a href="#">ISSN</a>
+						<a href="#">Antiplagiat</a>
+					</div>
+					<p class="mt-3">&copy; Xalqaro ilmiy jurnal "Science and Innovation"<br>
+						Maqolalardan foydalanganda maqola mualliflari, jurnal nomi va sayt URL-manzilini ko'rsatish shart.<br>
+						Tel: <a href="tel:+998933549654">+998(50)107-65-56</a>;
+					</p>
+					<div class="work-time">Dushanba->Juma || 09:00->18:00</div>
+					<div class="social-icons mt-3">
+						<a href="#"><i class="bi bi-telegram"></i></a>
+						<a href="#"><i class="bi bi-facebook"></i></a>
+						<a href="#"><i class="bi bi-instagram"></i></a>
+						<a href="#"><i class="bi bi-youtube"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer end-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</body>
+
+</html>
